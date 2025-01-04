@@ -200,7 +200,7 @@ async function handleOperation(operation, args) {
             throw new Error(`Unknown operation: ${operation}`);
     }
 }
-
+```
 
 ##  IF you have gotten this far, you may say, hey Trevor, why don't you use an IDE like cursor to add this functionality.
 my answer:  Will we have cursor in 3 months ?  I might learn something now before Windows 10 is totally voice mode....
