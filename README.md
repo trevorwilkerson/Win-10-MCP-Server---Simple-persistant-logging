@@ -7,6 +7,8 @@ Specifically, because I modified the "write-file" case in the index.js inside "s
   For example, it may write the headers and then say
   [ rest of the code stays the same ... ]
 
+Now my file is overwritten...
+
 I did 2 things:
 1.  Every time the write_file tool is called, I make a copy of the target file ( if exists ) with a date time stamp.
 2.  Log the name of the file and send it back ( return statement ) to Claude Desktop App so the user will see the backup file name.
